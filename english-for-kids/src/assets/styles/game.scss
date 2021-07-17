@@ -1,0 +1,30 @@
+.start-game{
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    left:50%;
+}
+.fade{
+    position: absolute;
+    z-index: 10;
+    width: 70vw;
+    height: 86vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(0, 191, 130, 0.3);
+}
+.score{
+    position: absolute;
+    top: 0.3vh;
+    justify-self: center;
+    display: flex;
+    width: 10em;
+    overflow: hidden;
+    & img{
+        
+        width: 1em;
+        height: 1em;
+    }
+}
